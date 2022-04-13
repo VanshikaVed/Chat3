@@ -1,0 +1,70 @@
+.logout
+{
+margin-top: 10px;
+width: 130px;
+height: 65px;
+font-size: 20px;
+background-color:crimson;
+color: aliceblue;
+border-radius: 20px;
+border: 2px black solid;
+margin-left: -120px;
+}
+
+.title{
+text-align: center;
+font-size: 55px;
+margin-top: -30px;
+}
+
+.rooms_page{
+background-color:turquoise;
+}
+
+.room_name_div{
+background-color: chartreuse;
+text-align: center;
+width: fit-content;
+border: 3px black solid;
+border-radius: 20px;
+}
+
+.title_room_name{
+padding: 20px; 
+font-family: monospace;   
+}
+
+#input_room_name{
+width: 300px;
+height: 35px;
+font-size: 25px;
+margin: 10px;
+}
+
+.room_button{
+width: 200px;
+height: 40px;
+font-size: 20px;
+background-color:blue;
+color: aliceblue;
+border-radius: 20px;
+border: 2px black solid;
+margin: 15px;
+}
+
+.inst
+{
+   font-size: 30px; 
+}
+#output{
+   background-color: chartreuse;
+   color: black;
+   cursor: pointer;
+   font-size: 25px;
+   border-radius: 20px;
+   padding: 5px;
+   float: none;
+   width: 80%;
+   padding-left: 20px;
+   padding-right: 20px;
+}

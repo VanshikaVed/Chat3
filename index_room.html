@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+SOP Rooms
+</title>
+
+<link rel="stylesheet" href="style_rooms.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+</head>
+
+<body class="rooms_page">
+
+<div class="container">
+
+<p class="title" id="username_receive"></p>  
+<button type="reset" class="logout" onclick="logout_room_page()">Logout   
+<i class="glyphicon glyphicon-log-out"></i>
+</button>
+
+<br>
+
+<center>
+<div id="div_name"></div>
+<div class="inst">After entering a name,you may search the name and click in the list , or you can click on an existing room</div>
+<div class="room_name_div">
+<h1 class="title_room_name">
+Enter Room Name Below:-
+</h1>
+<br>
+<input type="text" id="input_room_name" placeholder="Enter Room Name">
+<br><br>
+<button class="room_button" onclick="store_room_name()">Add Room</button>
+</div>
+
+<h1 class="title_room_name">List Of Rooms</h1>
+
+<div id="output"></div>
+</center>
+
+</div>
+</body>
+<script src="main_rooms.js"></script>
+</html>

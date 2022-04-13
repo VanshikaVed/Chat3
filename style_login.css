@@ -1,0 +1,57 @@
+.bg_login{
+    background-color:palevioletred;
+}
+
+marquee{
+    background-color:brown;
+    color: chartreuse;
+    width: 100%;
+    height: 60px;
+    margin-top: 7px;
+    font-family: fantasy;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#login_div{
+    background-color: powderblue;
+    width: 62%;
+    margin-bottom: 20px;
+}
+
+.title_of_div{
+    font-family: monospace;
+    color: rgb(204, 94, 15);
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.input_name{
+    width: 22%;
+    height: 35px;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.login_button{
+    width: 100px;
+    height: 45px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.logo{
+    width:480px;
+    height: 480px;
+}
+
+#warning{
+    font-family: monospace;
+    color: black;
+}
